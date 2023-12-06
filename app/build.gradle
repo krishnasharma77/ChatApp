@@ -67,9 +67,14 @@ dependencies {
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
 
+//    SpalshApi
+//    implementation("androidx.core:core-splashscreen:1.0.1")
+//       implementation 'androidx.core:core-splashscreen:1.0.0-beta02'
+    implementation 'androidx.core:core-splashscreen:1.0.0-beta02'
 
+    implementation "androidx.navigation:navigation-compose:2.4.0"
+    implementation "androidx.navigation:navigation-fragment-ktx:2.4.0"
+    implementation "androidx.navigation:navigation-ui-ktx:2.4.0"
 
-//    google signing
-    implementation 'com.google.android.gms:play-services-auth:19.2.0'
 
 }

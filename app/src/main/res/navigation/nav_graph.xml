@@ -1,0 +1,16 @@
+<!-- res/navigation/nav_graph.xml -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashRoute">
+
+    <activity
+        android:id="@+id/splashRoute"
+        android:name="com.chatapp.screen.SplashActivity" />
+
+    <activity
+        android:id="@+id/mainActivityRoute"
+        android:name="com.chatapp.screen.MainActivity" />
+
+</navigation>
